@@ -1,16 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-body{
-    position: relative;
-    width: 100%;
-    height: 2574px;
 
+
+body{
+    width: 100%;
+    height: 4000px;
     background: linear-gradient(179.58deg, #C3C7C8 18.85%, #A4A7A8 34.56%, #838687 51.21%);
 }
-header {
-    box-sizing: border-box;
 
-    position: absolute;
+
+/* Cabeçalho da pagina */
+
+header {
     width: 100%;
     height: 174px;
     left: 0px;
@@ -18,37 +19,29 @@ header {
     
     background: #c3c7c6;
     border-bottom: 1px solid #000000;
-    border-radius: 0px;
-
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items:center;
+    padding: 20px;
     
 }
-button{
-font-family: 'Fira Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
 
-text-align: center;
-
-color: #454747;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.guia {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #454747;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+
 .imgperfil {
-
-    position: absolute;
-    left: 12px;
-    top: 45px;
-
     display: block;
     border-radius: 50%;
     width: 80px;
@@ -78,7 +71,7 @@ header p {
 
 
 
-header img{
+.cabecalho__logo {
 
     width: 157px;
     height: 157px;
@@ -86,7 +79,7 @@ header img{
     top: 9px;
     border-radius: 100%;
 
-    background: aqua;
+    
 }
 
 .banner{
@@ -100,5 +93,15 @@ background: url(Banner.png);
 border-radius: 8px;
 }
 
+
+/* Menu lateral*/
+
+
+
+
+/* Corpo da pagina*/
+
+
+/* Rodapé*/
 
 
