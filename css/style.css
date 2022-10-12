@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
+@font-face {
+    font-family: 'DOCALLISME ON STREET' ;
+    src: url('fonts/DOCALLISME ON STREET.ttf') format('truetype');
+
+}
+
 
 body{
     width: 100%;
@@ -82,17 +88,6 @@ header p {
     
 }
 
-.banner{
-    position: absolute;
-    width: 1350px;
-    height: 622px;
-    left: 200px;
-    top: 212px;
-
-background: url(Banner.png);
-border-radius: 8px;
-}
-
 
 /* Menu lateral*/
 
@@ -100,8 +95,29 @@ border-radius: 8px;
 
 
 /* Corpo da pagina*/
+article{
+    padding: 2vw;
+}
 
+.corpo {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .corpo__banner {
+    align-self: center;
+
+    width: 100%;
+ }
+
+.corpo__titulo {
+    padding: 2vw 0 0 0;
+    font-family: 'DOCALLISME ON STREET','Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+
+}
 
 /* Rodapé*/
-
 
