@@ -62,16 +62,16 @@ header {
 
 header p {
     position: absolute;
-    width: 247px;
-    height: 62px;
-    left: 169px;
-    top: 56px;
-    
+    width: 15vw;
+    height: 3.2vw;
+    left: 9.7vw;
+    top: 2.7vw;
+
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 1.5vw;
+    line-height: 1.5vw;
     color: #000000;
 }
 
@@ -110,16 +110,30 @@ article{
  }
 
 .corpo__titulo {
-    padding: 2vw 0 0 0;
+    padding: 2vw 0 2vw 0;
     font-family: 'DOCALLISME ON STREET','Fira Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 72px;
+    width: 100vw;
 
 }
 
-.corpo__prod {
+.container{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+.container__conteudo {
+
+    margin: 0 0 4vw 0;
+    display: flex;
+    justify-content: space-around;
     width: 14vw;
     height: 18vw;
     background: rgba(239, 239, 239, 0.8);
@@ -129,7 +143,7 @@ article{
 
 }
 
-.corpo__prod img{
+.container__conteudo img{
     align-self: center;
 
     width: 12vw;
@@ -138,7 +152,7 @@ article{
     margin: 1vw 0 0 0 ;
 }
 
-.corpo__prod h1{
+.container__conteudo h1{
     padding: 1vw 0 0 0;
     font-family: 'Fira Sans';
     font-style: normal;
@@ -148,7 +162,7 @@ article{
     color: #151414;
 }
 
-.corpo__prod h2 {
+.container__conteudo h2 {
 
     font-family: 'Fira Sans';
     font-style: normal;
@@ -159,21 +173,25 @@ article{
 color: #151414;
 }
 
-.add {
-    position: absolute;
-        
-    display: block;
+
+
+/*  Um botão que queria colocar mas nn deu certo, inclusive uma duvida 
+
+.corpo__eclipse {   
+    justify-items: center;
     border-radius: 50%;
     width: 3vw;
     height: 3vw;  
     background: #A8ACAD;
 }
 
-.add img{
-    align-self: center;
+.corpo__img {
+
     height: 2.2vw;
     width: 2.2vw;
 }
+*/
+
 
 /* Rodapé*/
 
