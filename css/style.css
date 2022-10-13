@@ -119,5 +119,61 @@ article{
 
 }
 
+.corpo__prod {
+    width: 14vw;
+    height: 18vw;
+    background: rgba(239, 239, 239, 0.8);
+    border-radius: 0.4vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.corpo__prod img{
+    align-self: center;
+
+    width: 12vw;
+    height: 11vw;
+    border-radius: 1.6vw;
+    margin: 1vw 0 0 0 ;
+}
+
+.corpo__prod h1{
+    padding: 1vw 0 0 0;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    color: #151414;
+}
+
+.corpo__prod h2 {
+
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+
+color: #151414;
+}
+
+.add {
+    position: absolute;
+        
+    display: block;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;  
+    background: #A8ACAD;
+}
+
+.add img{
+    align-self: center;
+    height: 2.2vw;
+    width: 2.2vw;
+}
+
 /* Rodapé*/
 
