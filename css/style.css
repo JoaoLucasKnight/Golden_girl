@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
 @font-face {
-    font-family: 'DOCALLISME ON STREET' ;
-    src: url('fonts/DOCALLISME ON STREET.ttf') format('truetype');
+    font-family: 'doca' ;
+    src: url(../fonts/DOCALLISME\ ON\ STREET.ttf) format('truetype'), 
+     url(../fonts/docallismeonstreet.otf) format('opentype') ;
 
 }
 
@@ -95,11 +96,9 @@ header p {
 
 
 /* Corpo da pagina*/
-article{
-    padding: 2vw;
-}
 
 .corpo {
+    padding: 2vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -111,7 +110,7 @@ article{
 
 .corpo__titulo {
     padding: 2vw 0 2vw 0;
-    font-family: 'DOCALLISME ON STREET','Fira Sans';
+    font-family: 'doca';
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -280,8 +279,61 @@ footer{
 
 /* Cadastro */
 
-.corpo {
-    width: 1440px;
-    height: 974px;
-    background: url()   
+.corpoCadastro {
+    width: 100vw;
+    height: 67.9vw;
+
+    background-image:url(../imagens/backgroundcadastro.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.corpoCadastro__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    width: 722px;
+    height: 675px;
+    background: rgba(239, 239, 239, 0.8);
+    border-radius: 48px;
+    padding: 2vw 4vw;
+}
+
+.corpoCadastro__titulo {
+    align-self: center;
+    font-family: 'doca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 56px;
+    color: #454747;
+}
+
+.corpoCadastro__box input {
+    width: 580px;
+    height: 48px;
+
+    border: 1px solid #838687;
+    border-radius: 32px;
+}
+
+.corpoCadastro__box button{
+    box-sizing: border-box;
+
+    width: 240px;
+    height: 40px;
+
+
+    border: 1px solid #000000;
+    border-radius: 32px;
+
+    align-self: center;
 }
