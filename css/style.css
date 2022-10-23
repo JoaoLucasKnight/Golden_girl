@@ -548,7 +548,7 @@ footer{
     border-radius: 32px;
 
     
-    width: 35vw;
+    width: 36vw;
     padding: 1vw;
     
 
@@ -556,8 +556,10 @@ footer{
     border-radius: 16px;
 
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+
 
 .menulateral h1 {
     font-family: 'doca';
@@ -565,5 +567,106 @@ footer{
     font-weight: 400;
     font-size: 3vw;
     color: #454747;
-
+    width: 30vw ;
+    align-self: center;
 }
+
+.menulateral__button {
+    align-self: center;
+}
+
+.menulateral__lista {
+    margin: 2vh 0 ;
+}
+
+
+.menulateral__lista--item {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 2vh 0 ;
+}
+
+.menulateral__lista--img {
+    grid-column: 1;
+}
+
+.menulateral__lista--div {
+    grid-column: 2;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+
+.menulateral__lista--div {
+    padding: 0 0 0 2vw;
+    width: 20vw;
+} 
+
+.menulateral__lista--div h4 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.menulateral__lista--div h3 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+
+.menulateral__lista--icone {
+    grid-column: 3;
+    align-self: center;
+}
+
+.menulateral h2 {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.menulateral__inpcep {
+    box-sizing: border-box;
+    border-bottom: 1px solid #000000;
+    background: rgba(217, 217, 217, 0.02);
+    margin: 0 0 0 2vw;
+    }
+
+    .menulateral__inpcep ::placeholder{
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+#opfretes {
+    width: 34vw;
+    margin: 3vw 0 0 0 ;
+}
+
+.menulateral__divfrete {
+    width: 34vw;
+    height: 7vh;
+
+    background: linear-gradient(111.81deg,
+     rgba(131, 134, 135, 0.4) 0%,
+      rgba(182, 182, 179, 0) 85.62%);
+    border-radius: 32px;
+}
+

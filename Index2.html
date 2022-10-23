@@ -38,10 +38,39 @@
     </header>
 
     <div class="menulateral">
-        <h1>Carrinho de compras</h1>
-        <button>
+        <h1 class="menulateral__titulo" >Carrinho de compras</h1>
+        <button class="menulateral__ button">
             <img src="imagens/xis.svg" alt="">
         </button>
+         
+        <ul class= "menulateral__lista" >
+            <li class= "menulateral__lista--item">
+                <img class="menulateral__lista--img" src="imagens/mnCalça.png" alt="">
+                <div class="menulateral__lista--div">
+                    <h4>Calça Pantalona</h4>
+                    <h3>R$ 42,00</h3>
+                </div>
+                <img class="menulateral__lista--icone" src="imagens/iconeDelete.png" alt="">
+            </li>
+            <li class= "menulateral__lista--item">
+                <img class="menulateral__lista--img" src="imagens/mlsaia.png" alt="">
+                <div class="menulateral__lista--div" >
+                    <h4>Bolsa Preta </h4>
+                    <h3>R$ 20,00</h3>
+                </div>
+                <img class="menulateral__lista--icone" src="imagens/iconeDelete.png" alt="">
+            </li>
+
+        </ul>
+
+        <h2>Calcular Frete</h2>
+        <input class="menulateral__inpcep" type="tel" name="telefone" placeholder="737373-073">
+
+        <h2 id="opfretes">Opções de frete: </h2>
+
+        <div menulateral__divfrete>
+
+        </div>
 
  
     </div>
