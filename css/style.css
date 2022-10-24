@@ -534,6 +534,45 @@ footer{
     border-radius: 32px; 
 }
 
+.pagamento {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-between;
+}
+
+
+.pagamento__but {
+    width: 172px;
+    height: 83px;
+
+    background: #EFEFEF;
+
+    border-radius: 16px;
+    border: 2px solid #454747;
+}
+
+.pagamento__but :hover{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.pagamento__but--img {
+    width: 66px;
+    height: 66px;
+}
+
+.pagamento__div {
+    width: auto;
+    height: 264px;
+    background: #EFEFEF;
+    border-radius: 32px; 
+
+    grid-column: 1 / 4;
+    margin: 5vh 0 0 0;
+}
+
 
 /* Menu Lateral */ 
 
@@ -557,6 +596,7 @@ footer{
 
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -668,5 +708,26 @@ footer{
      rgba(131, 134, 135, 0.4) 0%,
       rgba(182, 182, 179, 0) 85.62%);
     border-radius: 32px;
+}
+
+.menulateral__butfinal {
+    box-sizing: border-box;
+    border: 1px solid #454747;
+    border-radius: 32px;
+    width: 15vw;
+    margin: 3vh 0;
+    
+}
+
+.menulateral__butfinal--texto {
+    box-sizing: border-box;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+
+    color: #454747;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
