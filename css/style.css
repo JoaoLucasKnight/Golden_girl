@@ -597,6 +597,29 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    transition: 1s;
+}
+.menulateral--desativado {
+    position: absolute;
+    left: 100vw;
+    top: 0%;
+    
+    background: rgba(254, 244, 244, 0.21);
+    box-shadow: -8px 16px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+
+    
+    width: 36vw;
+    padding: 1vw;
+    
+
+    background: #EFEFEF;
+    border-radius: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 
