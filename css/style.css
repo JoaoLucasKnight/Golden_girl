@@ -10,8 +10,8 @@
 
 
 body{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: auto;
     background: linear-gradient(179.58deg, #C3C7C8 18.85%, #A4A7A8 34.56%, #838687 51.21%);
 }
 
@@ -20,10 +20,9 @@ body{
 /* Cabeçalho da pagina */
 
 header {
-    width: 100%;
-    height: 174px;
-    left: 0px;
-    top: 0px;
+    width: 100vw;
+    height: auto;
+
     
     background: #c3c7c6;
     border-bottom: 1px solid #000000;
@@ -33,7 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding: 20px;
+    padding: 1.5vw;
     
 }
 
@@ -42,7 +41,7 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 1.2vw;
-    line-height: 29px;
+
     text-align: center;
     color: #454747;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -52,8 +51,8 @@ header {
 .imgperfil {
     display: block;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;      
+    width: 6vw;
+    height: 6vw;      
 }
 
 .imgperfil img {
@@ -80,23 +79,12 @@ header p {
 
 
 .cabecalho__logo {
-
-    width: 157px;
-    height: 157px;
-    left: 642px;
-    top: 9px;
-    border-radius: 100%;
-
-    
+    width: 8vw;
+    height: 8vw;
+    border-radius: 100%; 
 }
 
-
-/* Menu lateral*/
-
-
-
-
-/* Corpo da pagina*/
+/* --------------------------------------------Corpo da pagina----------------------------------------------*/
 
 .corpo {
     padding: 2vw;
@@ -114,14 +102,12 @@ header p {
     font-family: 'doca';
     font-style: normal;
     font-weight: 400;
-    font-size: 72px;
-    line-height: 72px;
-    width: 100vw;
-
+    font-size: 5.5vw;
+    line-height: 5.5vw;
 }
 
 .container{
-    width: 100%;
+    width: 100vw;
     display: grid;
     justify-items: center;
     
@@ -183,23 +169,23 @@ color: #151414;
     
 
     box-sizing: border-box;
-    width: 240px;
-    height: 40px;
+    width: 12vw;
+    height: 3vw;
     border: 1px solid #454747;
     border-radius: 8px;
 
 
 }
-
+ 
 .caixa__button h1 {
-    width: 241px;
-    height: 40px;
+    width: 12vw;
+    height: 3vw;
 
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 2.2vw;
+    line-height: 2.2vw;
     text-align: center;
 
     color: #454747;
@@ -267,7 +253,7 @@ footer{
 
     margin: 2vw 0 0 0;
     width: 30vw;
-    height: 5vh;
+    height: 3.5vw;
     background: #EFEFEF;
     border-radius: 16px;
 }
@@ -279,7 +265,7 @@ footer{
 }
 
 
-/* Cadastro */
+/* -------------------------Cadastro------------------------- */
 
 .corpoCadastro {
     width: 100vw;
@@ -300,10 +286,11 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 
 
-    width: 722px;
-    height: 675px;
+    width:56vw;
+    height: auto;
     background: rgba(239, 239, 239, 0.8);
     border-radius: 48px;
     padding: 2vw 4vw;
@@ -314,16 +301,16 @@ footer{
     font-family: 'doca';
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 5vw;
     line-height: 56px;
     color: #454747;
 }
 
 .corpoCadastro__box input {
-    width: 580px;
-    height: 48px;
+    width: 42vw;
+    height: auto;
 
-    background-color: rgba(239, 239, 239, 0.8);
+    background-color: rgba(239, 239, 239, 0.7);
     border: none;
     border: 1px solid #838687;
     border-radius: 32px;
@@ -332,16 +319,19 @@ footer{
    font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    line-height: 51px;
+    line-height: 1vw;
 
     color: #000000;
+    justify-items: center;
+
+    margin: 1vw 0;
 }
 
 .ph::placeholder {
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    line-height: 51px;
+    font-size: 1.5vw;
 
     color: #000000;
 }
@@ -349,8 +339,8 @@ footer{
 .corpoCadastro__box button{
     box-sizing: border-box;
 
-    width: 240px;
-    height: 40px;
+    width: 15vw;
+    height: auto;
 
 
     border: 1px solid #000000;
@@ -363,8 +353,8 @@ footer{
     font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 38px;
+    font-size: 2vw;
+    line-height: 2.2vw;
     text-align: center;
 
     color: #454747;
@@ -372,9 +362,11 @@ footer{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+/*------------------------- LOGIN -------------------------*/
+
 #loginBox {
-    width: 722px;
-    height: 400px;
+    width: 54vw;
+    height: auto;
 
     background: rgba(239, 239, 239, 0.8);
     border-radius: 48px;
@@ -382,7 +374,7 @@ footer{
 
 #corpologin {
     width: 100vw;
-    height: 67.9vw;
+    height: 40.9vw;
 
     background-image:url(../imagens/backgroundlogin.png);
     background-repeat: no-repeat;
@@ -393,7 +385,7 @@ footer{
     align-items: center;
 }
 
-/* Pagina de perfil de produto */
+/*------------------------- Pagina de perfil de produto -------------------------*/
 
 .caixona{
     display: flex;
@@ -574,7 +566,7 @@ footer{
 }
 
 
-/* Menu Lateral */ 
+/*------------------------- Menu Lateral -------------------------*/ 
 
 .menulateral {
     position: absolute;
@@ -600,8 +592,9 @@ footer{
     transition: 1s;
 }
 .menulateral--desativado {
+    
     position: absolute;
-    left: 100vw;
+    left: 200vw;
     top: 0%;
     
     background: rgba(254, 244, 244, 0.21);
