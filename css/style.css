@@ -129,6 +129,10 @@ header p {
 
 }
 
+.container__conteudo a {
+  padding: 0 0 0 2vw;
+}
+
 .container__conteudo img{
     align-self: center;
 
@@ -138,7 +142,7 @@ header p {
     margin: 1vw 0 0 0 ;
 }
 
-.container__conteudo h1{
+.container__conteudo  h1{
     padding: 1vw 0 0 0;
     font-family: 'Fira Sans';
     font-style: normal;
@@ -148,7 +152,7 @@ header p {
     color: #151414;
 }
 
-.container__conteudo h2 {
+.container__conteudo  h2 {
 
     font-family: 'Fira Sans';
     font-style: normal;
